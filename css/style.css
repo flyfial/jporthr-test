@@ -1174,6 +1174,11 @@ header {
     margin: 20px auto 0;
   }
 
+  .pr-times-center {
+    margin: 0 auto;
+  }
+
+
   .magazine div,
   .magazine p {
     text-align: center;
