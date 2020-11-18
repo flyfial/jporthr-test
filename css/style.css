@@ -686,22 +686,18 @@ footer {
 }
 
 .pr-times {
-  display: block;
+  display: inline-block;
   padding: 16px 30px;
   margin: 20px 0 0 0;
-  height: 50px;
   text-transform: uppercase;
   font-size: 15px;
   line-height: 18px;
   background-color: white;
+  color: #768486;
   border: 2px solid #768486;
   border-radius: 4px;
   font-weight: bold;
   font-family: "Poppins", sans-serif;
-}
-
-.pr-times a {
-  color: #768486;
 }
 
 .pr-times span {
