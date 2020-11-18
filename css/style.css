@@ -807,21 +807,21 @@ header {
   flex-direction: column;
 }
 
-.sticky-header {
-  width: 100%;
-  width: -moz-available;
-  width: -webkit-fill-available;
-  width: fill-available;
-  position: fixed;
-  top: 0;
+.ie {
   padding: 30px 40px;
-  background-color: white;
   display: -webkit-flex;
   display: -moz-flex;
   display: -ms-flex;
   display: -o-flex;
   display: flex;
   justify-content: space-between;
+}
+
+.sticky-header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: white;
   z-index: 2;
 }
 
@@ -974,7 +974,7 @@ header {
     max-width: 920px;
   }
 
-  .sticky-header {
+  .ie {
     padding: 30px;
   }
 
