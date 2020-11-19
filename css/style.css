@@ -1384,6 +1384,12 @@ header {
     color: white;
   }
 
+  .article-btn {
+    color: #312F30;
+    background-color: #EAEDED;
+    border: none;
+  }
+
   .stats {
     margin: 30px auto 0;
   }
