@@ -1388,6 +1388,7 @@ header {
     color: #312F30;
     background-color: #EAEDED;
     border: none;
+    margin-bottom: 60px;
   }
 
   .stats {
