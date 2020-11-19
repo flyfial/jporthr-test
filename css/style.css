@@ -390,6 +390,7 @@ button:hover {
   background-image: url("../img/promo-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: right;
 }
 
 .promo h2 {
@@ -780,6 +781,7 @@ footer {
   background-image: url("../img/monitor-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: right;
 }
 
 .monitor .content-wrapper {
@@ -1367,7 +1369,7 @@ header {
   .download-btn {
     width: 320px;
     margin: 10px 0 0 0;
-    padding: 16px 0;
+    padding: 14px 0;
     background-color: transparent;
     border: 2px solid #768486;
     color: #768486;
@@ -1547,7 +1549,7 @@ header {
 
   .consult {
     margin-top: 30px;
-    padding: 21px 0;
+    padding: 16px 0;
     width: 320px;
   }
 
