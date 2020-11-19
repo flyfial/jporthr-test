@@ -237,6 +237,7 @@ button:hover {
   margin: 0;
   font-weight: 500;
   line-height: 32px;
+  white-space: pre-wrap;
 }
 
 .top-text span {
@@ -344,16 +345,19 @@ button:hover {
 .info-img01 {
   background: url("../img/info01.svg");
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .info-img02 {
   background: url("../img/info02.svg");
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .info-img03 {
   background: url("../img/info03.svg");
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 .info-span {
@@ -436,6 +440,7 @@ button:hover {
   height: 50px;
   margin-right: 20px;
   background: url("../img/check.svg") no-repeat;
+  background-size: 100%;
 }
 
 .instruction {
@@ -762,6 +767,11 @@ footer {
   justify-content: space-between;
 }
 
+.media-wrapper img {
+  width: 160px;
+  height: 90px;
+}
+
 .media img {
   margin-bottom: 28px;
 }
@@ -956,6 +966,63 @@ header {
   font-size: 12px;
   line-height: 18px;
   font-family: "Poppins", sans-serif;
+}
+
+@media screen and (min-width: 1680px) {
+  .header-wrapper,
+  .top-content,
+  .content-wrapper {
+    width: 1440px;
+  }
+
+  .info-img {
+    width: 400px;
+    height: 200px;
+  }
+
+  .jport-community img {
+    width: 400px;
+  }
+
+  .jport-community .point-about {
+    display: inline-block;
+  }
+
+  .jport-ambassador p:nth-of-type(2) {
+    margin-left: 0;
+  }
+
+  .flow-img01,
+  .flow-img02 {
+    background-size: 100%;
+  }
+
+  .flow-img {
+    width: 700px;
+    height: 277px;
+  }
+
+  .case {
+    width: 400px;
+  }
+
+  .logo01::after,
+  .logo02::after {
+    width: 140px;
+    height: 70px;
+  }
+
+  .sup-text {
+    width: 400px;
+  }
+
+  .magazine-wrapper {
+    max-width: 1066px;
+  }
+
+  .article {
+    width: 320px;
+  }
 }
 
 @media screen and (max-width: 1060px) {
@@ -1210,5 +1277,275 @@ header {
 
   .footer-dl:last-of-type .footer-dd {
     margin: 0;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  body {
+    min-width: 360px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .header-wrapper,
+  .content-wrapper,
+  .challenges-inner {
+    width: 320px;
+  }
+
+  h1 {
+    text-align: left;
+    font-size: 26px;
+    line-height: 44px;
+  }
+
+  h1 span {
+    margin-left: -15px;
+  }
+
+  h2 {
+    font-size: 26px;
+    line-height: 36px;
+  }
+
+  h3 {
+    font-size: 22px;
+    line-height: 30px;
+  }
+
+  header {
+    margin-bottom: 0;
+  }
+
+  .header-logo {
+    width: 138px;
+    height: 30px;
+    position: relative;
+    top: 5px;
+  }
+
+  .top-bg {
+    background-color: #F0FAFA;
+  }
+
+  .top-content {
+    margin: 20px 0 40px;
+  }
+
+  .top-text {
+    text-align: left;
+    font-size: 12px;
+    line-height: 24px;
+    white-space: unset;
+    position: relative;
+  }
+
+  .top-text::after {
+    content: "";
+    display: block;
+    background-image: url("../img/mac-top.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 320px;
+    height: 167px;
+    margin-top: 30px;
+  }
+
+  .mac {
+    display: none;
+  }
+
+  .apply-btn {
+    width: 320px;
+    padding: 16px 0;
+  }
+
+  .apply-btn::after {
+    right: 10px;
+  }
+
+  .download-btn {
+    width: 320px;
+    margin: 10px 0 0 0;
+    padding: 16px 0;
+    background-color: transparent;
+    border: 2px solid #768486;
+    color: #768486;
+  }
+
+  .small {
+    width: 100%;
+    padding: 11px 20px;
+  }
+
+  .white-btn {
+    background-color: transparent;
+    border: 2px solid white;
+    color: white;
+  }
+
+  .stats {
+    margin: 30px auto 0;
+  }
+
+  .challenges {
+    background: none;
+  }
+
+  .challenges-inner {
+    margin-top: -20px;
+    padding: 0 20px 20px;
+    box-shadow: none;
+  }
+
+  .info-img {
+    width: 320px;
+    height: 160px;
+  }
+
+  .about {
+    margin-bottom: 60px;
+  }
+
+  .span-community {
+    font-size: 17px;
+  }
+
+  .buttons {
+    margin: 40px auto 0;
+  }
+
+  .community .buttons {
+    margin-bottom: 60px;
+  }
+
+  .promo h2 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+  }
+
+  .promo h2 span {
+    font-size: 24px;
+    line-height: 40px;
+  }
+
+  .caption {
+    margin: 0 0 30px 0;
+  }
+
+  .flow-left,
+  .flow-right {
+    margin: 0;
+  }
+
+  .flow-img {
+    display: none;
+  }
+
+  .flow span {
+    display: block;
+    margin: 0 0 10px 0;
+    width: 30px;
+    height: 30px;
+  }
+
+  .instruction {
+    display: block;
+  }
+
+  .instruction-details {
+    margin: 0 0 30px 0;
+  }
+
+  .pdf-details {
+    text-align: left;
+  }
+
+  .flow-wrapper,
+  .how-to-wrapper {
+    margin-bottom: 60px;
+  }
+
+  .how-to-use h2,
+  .community h2,
+  .case-study h2 {
+    margin-top: 60px;
+  }
+
+  .logo01::after,
+  .logo02::after {
+    width: 100px;
+    height: 50px;
+  }
+
+  .case-wrapper {
+    margin-bottom: 10px;
+  }
+
+  .case-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .supporter {
+    position: relative;
+  }
+
+  .sup-image {
+    position: absolute;
+  }
+
+  .sup-image img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .pr-times {
+    margin: 0;
+    padding: 16px 110px;
+  }
+
+  .supporters-voice {
+    margin: 60px 0;
+  }
+
+  .magazine-logo {
+    margin: 60px auto 50px;
+  }
+
+  .content-wrapper .magazine-about {
+    text-align: left;
+  }
+
+  .magazine-about:nth-of-type(2) {
+    margin-left: 0;
+  }
+
+  .media-wrapper {
+    margin: 50px 0 20px;
+  }
+
+  .media-wrapper img {
+    width: 100px;
+    height: 56px;
+  }
+
+  .monitor .content-wrapper {
+    padding: 60px 0;
+  }
+
+  .footer-wrapper {
+    display: none;
+  }
+
+  .consult {
+    margin-top: 30px;
+    padding: 21px 0;
+    width: 320px;
+  }
+
+  .monitor p {
+    font-size: 14px;
+    line-height: 20px;
   }
 }
